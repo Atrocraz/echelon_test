@@ -1,0 +1,83 @@
+{
+    "chrome": {
+        "default": "128.0",
+        "versions": {
+            "128.0": {
+                "image": "selenoid/chrome:128.0",
+                "port": "4444",
+                "path": "/",
+                "tmpfs": {
+                    "/tmp": "size=128m"
+                }
+            }
+        }
+    },
+    "firefox": {
+        "default": "124.0",
+        "versions": {
+            "124.0": {
+                "image": "selenoid/firefox:124.0",
+                "port": "4444",
+                "path": "/wd/hub",
+                "tmpfs": {
+                    "/tmp": "size=128m"
+                }
+            },
+            "110.0": {
+                "image": "selenoid/firefox:110.0",
+                "port": "4444",
+                "path": "/wd/hub",
+                "tmpfs": {
+                    "/tmp": "size=128m"
+                }
+            },
+            "104.0": {
+                "image": "selenoid/firefox:104.0",
+                "port": "4444",
+                "path": "/wd/hub",
+                "tmpfs": {
+                    "/tmp": "size=128m"
+                }
+            }
+        }
+    },
+    "opera": {
+        "default": "109.0",
+        "versions": {
+            "109.0": {
+                "image": "selenoid/opera:109.0",
+                "port": "4444",
+                "path": "/",
+                "tmpfs": {
+                    "/tmp": "size=128m"
+                }
+            }
+        }
+    },
+    "MicrosoftEdge": {
+        "default": "103.0",
+        "versions": {
+            "103.0": {
+                "image": "browsers/edge:103.0",
+                "port": "4444",
+                "path": "/",
+                "tmpfs": {
+                    "/tmp": "size=128m"
+                }
+            }
+        }
+    },
+    "safari": {
+        "default": "14.0",
+        "versions": {
+            "14.0": {
+                "image": "browsers/safari:14.0",
+                "port": "4444",
+                "path": "/",
+                "tmpfs": {
+                    "/tmp": "size=128m"
+                }
+            }
+        }
+    }
+}
